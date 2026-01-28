@@ -11,7 +11,11 @@ package labu1repaso;
 
 
 // TODO 9: Haz que la clase camion herede de Vehículo
-public class Camion {
+public class Camion extends Vehiculo{
+
+    public Camion(String marca, int velocidad) {
+        super(marca, velocidad);
+    }
     
     // TODO 10: Define el constructor de Auto que reciba los
     // parámetros para pasárselos a la superclase. No olvides
