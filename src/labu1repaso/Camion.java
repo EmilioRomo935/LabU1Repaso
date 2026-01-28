@@ -25,5 +25,10 @@ public class Camion extends Vehiculo{
         
     velocidad += 15;
     }
+    
+    @Override
+    public void frenar(){
+       velocidad -= 5;
+    }
   
 }

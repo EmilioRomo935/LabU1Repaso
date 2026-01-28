@@ -19,5 +19,9 @@ public class Auto extends Vehiculo{
     // TODO 8: Define el constructor de Auto que reciba los
     // parámetros para pasárselos a la superclase. No olvides
     // hacer uso de la palabra reservada super
+    @Override
+    public void frenar(){
+       velocidad -= 5;
+    }
 
 }
