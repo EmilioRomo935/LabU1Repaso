@@ -16,8 +16,14 @@ public class Camion extends Vehiculo{
     public Camion(String marca, int velocidad) {
         super(marca, velocidad);
     }
-    
     // TODO 10: Define el constructor de Auto que reciba los
     // parámetros para pasárselos a la superclase. No olvides
     // hacer uso de la palabra reservada super
+    
+    @Override
+    public void acelerar(){
+        
+    velocidad += 15;
+    }
+  
 }

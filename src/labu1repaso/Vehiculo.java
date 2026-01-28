@@ -14,7 +14,7 @@ public class Vehiculo {
     private String marca;
     
    // velocidad de tipo entero
-    private int velocidad;
+    protected int velocidad;
     
    // TODO 2:  Crea el constructor de Vehiculo que reciba
    // los parámetros de marca y velocidad
