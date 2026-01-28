@@ -31,6 +31,11 @@ public class LabU1Repaso {
         
         camion1.acelerar();
         camion1.mostrarEstado();
+        
+        Motocicleta motocicleta1 = new Motocicleta("Yamaha",0);
+        
+        motocicleta1.acelerar();
+        motocicleta1.mostrarEstado();
     }
     
 }
